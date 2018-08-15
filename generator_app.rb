@@ -1,6 +1,6 @@
-# puts "What state are you interested in?"
-# state = gets.chomp
-# def rep_generator(state)
+puts "What state are you interested in?"
+  state = gets.chomp
+def rep_generator(state) do
   if state == Alabama
     puts "Senators: Richard Shelby(R) and Doug Jones(D)"
     puts "House of Representatives(7): Bradley Byrne(R), Martha Roby(R), Mike Rogers(R), Robert Aderholt(R), Mo Brooks(R), Gary Palmer(R), and Terri Sewell(D)"
